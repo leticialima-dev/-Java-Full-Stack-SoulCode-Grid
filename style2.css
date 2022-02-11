@@ -1,0 +1,27 @@
+.body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background:white
+    
+    
+}
+
+.pink{
+    background-color: pink  ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100px; 
+}
+
+.color-main{
+    background: white;
+    height: 500px;
+}
+
+
+.yellow{
+   background-color: yellow;
+   grid-row: 3/4;
+   height: 50px;
+}

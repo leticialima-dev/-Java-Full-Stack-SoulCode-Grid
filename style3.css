@@ -1,0 +1,31 @@
+.body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.grid-container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 700px ;
+    grid-template-columns: 200px ;
+
+
+}
+
+
+aside{
+
+    background-color: green;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    grid-column-start: 1;
+    grid-column-end:2 ;
+
+}
+

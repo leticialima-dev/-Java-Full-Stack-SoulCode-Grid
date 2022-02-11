@@ -1,0 +1,59 @@
+.body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.grid-container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 200px 1000px ;
+    row-gap: 10px;
+    column-gap: 35.5px
+
+}
+
+header{
+    background-color: pink  ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 1;
+    grid-column-end:4 
+}
+
+main{
+    background-color:  purple;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end:2 
+
+}
+aside{
+
+    background-color: white;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 2;
+    grid-column-end:3 
+
+}
+
+footer{
+   background-color: yellow;
+
+  
+   grid-row: 3/4;
+
+    grid-column-start: 1;
+    grid-column-end:4 
+}
